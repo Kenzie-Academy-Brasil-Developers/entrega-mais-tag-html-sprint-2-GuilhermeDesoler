@@ -11,11 +11,6 @@ body{
     line-height: 1.5;
 }
 
-/* Header */
-header{
-    padding-bottom: -1em;
-}
-
 /* Article */
 article{
     padding-left: 0.5em;
@@ -40,19 +35,6 @@ div{
     padding-bottom: 10px;
 }
 
-/* Text */
-h1{
-    text-align: center;
-    padding-top: 0.5em;
-}
-
-h2, h3, h4{
-    border-bottom: 1px solid white;
-}
-hr{
-    padding-left: 0.5em;
-}
-
 /* Images */
 .img-main-left{
     max-width: 200px;
@@ -72,18 +54,9 @@ hr{
     max-width: 50px;
 }
 
-/* Anchor */
-a:link, a:visited{
-    text-decoration: none;
-    color: black;
-}
-
-a:hover{
-    color: white;
-}
-
 /* List */
 #navegation{
+    padding: 0;
     list-style-type: none;
     border-bottom: 1px solid white;
     text-align: center;
@@ -100,4 +73,27 @@ a:hover{
 
 #social{
     list-style-type: none;
+}
+
+/* Anchor */
+a:link, a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: white;
+}
+
+/* Text */
+h1{
+    text-align: center;
+    padding-top: 0.5em;
+}
+
+h2, h3, h4{
+    border-bottom: 1px solid white;
+}
+hr{
+    padding-left: 0.5em;
 }
